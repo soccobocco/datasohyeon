@@ -5,4 +5,4 @@ from pathlib import Path
 html_file = Path('pie2.html').read_text()
 
 # Streamlit에서 HTML 렌더링 (st.components.v1.html 사용)
-st.components.v1.html(html_file, height=600, width=800)
+st.components.v1.html(html_file, height=200, width=400)
