@@ -6,3 +6,4 @@ image_url = 'https://raw.githubusercontent.com/soccobocco/soccobocco.github.io/m
 # Streamlit에서 이미지 표시
 st.image(image_url)
 
+st.markdown(f"![WordCloud Image]({image_url})")
